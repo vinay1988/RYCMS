@@ -1,0 +1,11 @@
+﻿@model Logo
+@using Glass.Mapper.Sc.Web.Mvc
+
+@Html.Glass().RenderImage(Model, m => m.LogoImage,new { @class = "global-header__logo" }, isEditable: true);
+@*@if (Model.link != null && Model.LogoImage != null)
+{
+    using (Html.Glass().BeginRenderLink(Model, x => x.link, isEditable: true))
+    {
+        Html.Glass().RenderImage(Model, m => m.LogoImage, new { @class = "global-header__logo" }, isEditable: true);
+    }
+}*@

@@ -1,0 +1,394 @@
+{
+  "markers": [
+    {
+      "title": "Atlanta #300",
+      "address": "2200 Aviation Blvd. <br />P.O. Box 45485<br />Atlanta, GA 30320<br />USA",
+      "phone": "+1 404 530 4400",
+      "fax": "+1 404 530 4423",
+      "location": [33.6410711, -84.4070364],
+      "image": "/assets/img/card/careers3.jpg",
+      "country": "USA"
+    },
+    
+    {
+      "title": "Atlanta #301",
+      "address": "1555 Sullivan Road, College Park<br />P.O. Box 20947<br />Atlanta, GA 30337-6015<br />USA",
+      "phone": "+1 404 530 6492",
+      "fax": "+1 404 530 6498",
+      "location": [33.627907, -84.439522],
+      "image": "/assets/img/card/careers2.jpg",
+      "country": "USA"
+    },
+
+    {
+      "title": "Atlanta #302",
+      "address": "1500 Aviation Blvd.<br />P.O. Box 45485<br />Atlanta, GA 30320<br />USA",
+      "phone": "+1 404 530 6300",
+      "fax": "+1 404 530 6323",
+      "location": [33.6411347, -84.4107592],
+      "image": "/assets/img/card/contact.jpg",
+      "country": "USA"
+
+    },
+
+    {
+      "title": "Boston",
+      "address": "21 Lovell Street<br />Building 1<br />East Boston, MA  02128<br />USA",
+      "phone": "+1 617 874 4900",
+      "fax": "+1 617 874 4950",
+      "location": [42.3781661, -71.0248195],
+      "image": "/assets/img/card/careers1.jpg",
+      "country": "USA"
+    },
+
+    {
+      "title": "Calgary",
+      "address": "2200-78th Avenue N.E.<br />Calgary International Airport<br />Calgary, Alberta T2E 6W6<br />Canada",
+      "phone": "+1 403 291 4533",
+      "location": [51.1219367, -114.0136135],
+      "image": "/assets/img/cta/contact-us.jpg",
+      "country": "Canada",
+      "brand": "Brand 1"
+    },
+
+    {
+      "title": "Chicago #239",
+      "address": "4347 United Parkway<br />Schiller Park, IL 60176<br />USA",
+      "phone": "+1 847 928 1081",
+      "fax": "+1 847 928 0996",
+      "location": [41.9568748, -87.8893051],
+      "image": "/assets/img/card/contact-2.jpg",
+      "country": "USA"
+    },
+
+    {
+      "title": "Cincinnati ",
+      "address": "3298 Lincoln Road<br />P.O. Box 75099<br />Erlanger, KY 41018<br />USA",
+      "phone": "+1 859 767 3718",
+      "fax": "+1 859 283 0659",
+      "location": [39.0140872, -84.6008093],
+      "image": "/assets/img/card/careers3.jpg",
+      "country": "USA"
+    },
+
+    {
+      "title": "Columbus",
+      "address": "5055 Sawyer Road<br />Columbus, OH 43219<br />USA",
+      "phone": "+1 614 237 0409",
+      "fax": "+1 614 237 0341",
+      "location": [39.996669, -82.870087],
+      "image": "/assets/img/card/careers2.jpg",
+      "country": "USA"
+    },
+
+    {
+      "title": "Dallas / Fort Worth",
+      "address": "3301 S. 22nd Avenue<br />Bldg 6W, DFW Airport<br />P.O. Box 612642<br />Dallas, TX 75261-2642<br />USA",
+      "phone": "+1 972 574 5634",
+      "fax": "+1 972 574 4138",
+      "location": [32.8974493, -97.0406533],
+      "image": "/assets/img/card/contact.jpg",
+      "country": "USA"
+    },
+
+    {
+      "title": "Detroit",
+      "address": "28000 Wick Road<br />Romulus, MI 48174<br />USA",
+      "phone": "+1 734 946 9250",
+      "fax": "+1 734 946 3830",
+      "location": [42.240833, -83.313974],
+      "image": "/assets/img/card/careers1.jpg",
+      "country": "USA"
+    },
+
+    {
+      "title": "Edmonton",
+      "address": "5407 - 36 Street East<br />Edmonton International Airport<br />Edmonton, Alberta  T9E 0V4<br />Canada",
+      "phone": "+1 780 890 4443",
+      "location": [53.3193415, -113.571646],
+      "image": "/assets/img/cta/contact-us.jpg",
+      "country": "Canada",
+      "brand": "Brand 2"
+    },
+
+    {
+      "title": "Fort Lauderdale",
+      "address": "4140 SW 30th Avenue, Suite 104<br />Hollywood, Florida 33312<br />USA",
+      "phone": "+1 954 584 7305",
+      "fax": "+1 954 972 2952",
+      "location": [26.070682, -80.181481],
+      "image": "/assets/img/card/contact-2.jpg",
+      "country": "USA"
+    },
+
+    {
+      "title": "Halifax",
+      "address": "11 Red Wing Drive<br />Goffs, Nova Scotia B2T 1K3<br />Canada",
+      "phone": "+1 902 873 3500",
+      "location": [44.880688, -63.5216725],
+      "image": "/assets/img/card/careers3.jpg",
+      "country": "Canada",
+      "brand": "Brand 3"
+    },
+
+    {
+      "title": "Indianapolis",
+      "address": "6620 Pierson Drive<br />Indianapolis, IN 46241<br />USA",
+      "phone": "+1 317 244 7896",
+      "fax": "+1 317 240 6207",
+      "location": [39.739185, -86.275216],
+      "image": "/assets/img/card/careers2.jpg",
+      "country": "USA"
+    },
+
+    {
+      "title": "Jacksonville",
+      "address": "2551 Cole Flyer Drive<br />Jacksonville, FL 32218<br />USA",
+      "phone": "+1 904 741 2363",
+      "fax": "+1 904 741 6640",
+      "location": [30.4869025, -81.6802147],
+      "image": "/assets/img/card/contact.jpg",
+      "country": "USA"
+    },
+
+    {
+      "title": "Las Vegas",
+      "address": "1555 Landing Strip Ave.<br />Las Vegas, NV 89119<br />USA",
+      "phone": "+1 702 891 4800",
+      "fax": "+1 702 736 0806",
+      "location": [36.085519, -115.131362],
+      "image": "/assets/img/card/careers1.jpg",
+      "country": "USA"
+    },
+
+    {
+      "title": "Los Angeles",
+      "address": "6701 West Imperial Highway<br />Los Angeles, CA 90045<br />USA",
+      "phone": "+1 310 670 1749",
+      "fax": "+1 310 670 0178",
+      "location": [33.9320742, -118.4076936],
+      "image": "/assets/img/cta/contact-us.jpg",
+      "country": "USA"
+    },
+
+    {
+      "title": "Maui",
+      "address": "250 Alamaha Street<br />Kahului, HI 96732<br />USA",
+      "phone": "+1 808 877 3911",
+      "fax": "+1 808 871 2751",
+      "location": [20.8870188, -156.4594324],
+      "image": "/assets/img/card/contact-2.jpg",
+      "country": "USA"
+    },
+
+    {
+      "title": "Memphis",
+      "address": "2222 Lloyd Street<br />Memphis, TN 38114-4800<br />USA",
+      "phone": "+1 901 614 2270",
+      "fax": "+1 901 922 8674",
+      "location": [35.0324069, -89.9821269],
+      "image": "/assets/img/card/careers3.jpg",
+      "country": "USA"
+    },
+
+    {
+      "title": "Miami",
+      "address": "1855 N.W. 70th Avenue<br />Miami, FL 33126<br />USA",
+      "phone": "+1 305 640 4520",
+      "fax": "+1 305 640 4530",
+      "location": [25.791632, -80.309751],
+      "image": "/assets/img/card/careers2.jpg",
+      "country": "USA"
+    },
+
+    {
+      "title": "Montreal",
+      "address": "1185 Rodolphe Page<br />Dorval, Quebec H4Y 1H3<br />Canada",
+      "phone": "+1 514 636 5824",
+      "location": [45.4502188, -73.7529741],
+      "image": "/assets/img/card/contact.jpg",
+      "country": "Canada",
+      "brand": "Brand 4"
+    },
+
+    {
+      "title": "Newark",
+      "address": "855 Woodruff Lane<br />Elizabeth, NJ 07201<br />USA",
+      "phone": "+1 908 289 7690",
+      "fax": "+1 908 289 6057",
+      "location": [40.6732991, -74.1944509],
+      "image": "/assets/img/card/careers1.jpg",
+      "country": "USA"
+    },
+
+    {
+      "title": "New Orleans",
+      "address": "505 E. Airline Dr.<br />Kenner, LA 70062<br />USA",
+      "phone": "+1 504 464 9521",
+      "fax": "+1 504 469 9201",
+      "location": [29.98314, -90.265071],
+      "image": "/assets/img/cta/contact-us.jpg",
+      "country": "USA"
+    },
+
+    {
+      "title": "New York JFK",
+      "address": "30 Inip Drive<br />Inwood, NY 11096<br />USA",
+      "phone": "+1 516 295 6220",
+      "fax": "+1 516 295 6278",
+      "location": [40.626924, -73.7475145],
+      "image": "/assets/img/card/contact-2.jpg",
+      "country": "USA"
+    },
+
+    {
+      "title": "New York LaGuardia",
+      "address": "18-15 45th Street<br />Astoria, NY 11105<br />USA",
+      "phone": "+1 718 278 5522",
+      "fax": "+1 718 278 9102",
+      "location": [40.7740001, -73.899286],
+      "image": "/assets/img/card/careers3.jpg",
+      "country": "USA"
+    },
+
+    {
+      "title": "Orlando",
+      "address": "8401 Casa Verde Road<br />Orlando, FL 32827<br />USA",
+      "phone": "+1 407 856 6427",
+      "fax": "+1 407 240 8986",
+      "location": [28.443829, -81.3000958],
+      "image": "/assets/img/card/careers2.jpg",
+      "country": "USA"
+    },
+
+    {
+      "title": "Ottawa",
+      "address": "139 Thad Johnson Private<br />Gloucester, Ottawa K1V 1A2<br />Canada",
+      "phone": "+1 613 521 2272",
+      "location": [45.3269096, -75.651931],
+      "image": "/assets/img/card/contact.jpg",
+      "country": "Canada",
+      "brand": "Brand 1"
+    },
+
+    {
+      "title": "Regina",
+      "address": "2615 Airport Road<br />Regina, Sask. S4W 1A4<br />Canada",
+      "phone": "+1 306 525 2322",
+      "location": [50.4376046, -104.6513126],
+      "image": "/assets/img/card/careers1.jpg",
+      "country": "Canada",
+      "brand": "Brand 2"
+    },
+
+    {
+      "title": "San Antonio",
+      "address": "919 Isom Road<br />San Antonio, TX 78216<br />USA",
+      "phone": "+1 210 824 7594",
+      "fax": "+1 210 824 0003",
+      "location": [29.53576, -98.486716],
+      "image": "/assets/img/cta/contact-us.jpg",
+      "country": "USA"
+    },
+
+    {
+      "title": "San Diego",
+      "address": "3870 Houston Street<br />San Diego, CA 92110<br />USA",
+      "phone": "+1 619 497 2425",
+      "fax": "+1 619 497 2440",
+      "location": [32.757459, -117.207879],
+      "image": "/assets/img/card/contact-2.jpg",
+      "country": "USA"
+    },
+
+    {
+      "title": "San Francisco",
+      "address": "West Field Rd. Bldg. 645<br />San Francisco Intl. Airport<br />P.O. Box 280037<br />San Francisco, CA 94128<br />USA",
+      "phone": "+1 650 876 2075",
+      "fax": "+1 650 876 2093",
+      "location": [37.6225875, -122.3959258],
+      "image": "/assets/img/card/careers3.jpg",
+      "country": "USA"
+    },
+
+    {
+      "title": "St. Louis",
+      "address": "8725 Scudder Road<br />Berkeley, MO 63140-1002<br />USA",
+      "phone": "+1 314 743 4287",
+      "fax": "+1 314 743 4290",
+      "location": [38.7413756, -90.3366796],
+      "image": "/assets/img/card/careers2.jpg",
+      "country": "USA"
+    },
+
+    {
+      "title": "Seattle",
+      "address": "2755 South 163rd Street<br />Seattle, WA 98158<br />USA",
+      "phone": "+1 206 439 7533",
+      "fax": "+1 206 439 9014",
+      "location": [47.4570363, -122.2993875],
+      "image": "/assets/img/card/contact.jpg",
+      "country": "USA"
+    },
+
+    {
+      "title": "Tampa",
+      "address": "2404 N. West Shore Blvd.<br />Tampa, FL 33607<br />USA",
+      "phone": "+1 813 396 3700",
+      "fax": "+1 813 876 2469",
+      "location": [27.964384, -82.524937],
+      "image": "/assets/img/card/careers1.jpg",
+      "country": "USA"
+    },
+
+    {
+      "title": "Toronto",
+      "address": "2498 Britannia Road East<br />Mississauga, Ontario L4W 2P7<br />Canada",
+      "phone": "+1 905 405 4100",
+      "location": [43.6740054, -79.6323488],
+      "image": "/assets/img/cta/contact-us.jpg",
+      "country": "Canada",
+      "brand": "Brand 3"
+    },
+
+    {
+      "title": "Washington / Dulles",
+      "address": "44845 Package Ct.<br />Dulles Int'l Airport<br />Dulles, VA 20166-7628<br />USA",
+      "phone": "+1 703 661 6599",
+      "fax": "+1 703 661 6892",
+      "location": [38.9617985, -77.4514322],
+      "image": "/assets/img/card/contact-2.jpg",
+      "country": "USA"
+    },
+
+    {
+      "title": "West Palm Beach",
+      "address": "3200 Belvedere Rd.<br />Building 1169-Unit C<br />West Palm Beach, FL 33406<br />USA",
+      "phone": "+1 561 681 0288",
+      "fax": "+1 561 681 6576",
+      "location": [26.6914755, -80.0915001],
+      "image": "/assets/img/card/careers3.jpg",
+      "country": "USA"
+    },
+
+    {
+      "title": "Winnipeg",
+      "address": "2180 Wellington Avenue<br />Winnipeg, Manitoba R3H 1C5<br />Canada",
+      "phone": "+1 204 786 7431",
+      "location": [49.9011353, -97.2219023],
+      "image": "/assets/img/card/careers2.jpg",
+      "country": "Canada",
+      "brand": "Brand 4"
+    },
+
+    {
+      "title": "Vancouver",
+      "address": "6260 Miller Road<br />Richmond, BC  V7B 1B3<br />Canada",
+      "phone": "+1 604 278 9144",
+      "location": [49.1921139, -123.1544519],
+      "image": "/assets/img/card/contact.jpg",
+      "country": "Canada",
+      "brand": "Brand 1"
+    } 
+  ]
+}

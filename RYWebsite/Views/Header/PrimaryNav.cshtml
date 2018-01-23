@@ -1,0 +1,54 @@
+﻿@model PrimaryNav
+<ul class="primary-nav">
+@foreach(var MenuItem in @Model.NavItems)
+{
+    if (MenuItem.TemplateName.Equals("Page") && MenuItem.ShowinNav)
+    {
+
+        Sitecore.Data.Items.Item item = Sitecore.Context.Database.GetItem(MenuItem.Path);
+        if (item.Children.Count > 0)
+        {
+                <li class="primary-nav__item primary-nav__item--parent">
+                        <a href="@Sitecore.Links.LinkManager.GetItemUrl(item)" class="primary-nav__link  primary-nav__link--active">
+                            @item.Name
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 4" class="global-header__arrow"><path fill="#FFF" fill-rule="evenodd" d="M4 4l4-4H0" opacity=".75" /></svg>
+                        </a>
+                        <ul class="primary-nav__drop-down">
+                            <li class="primary-nav__drop-down-item primary-nav__drop-down-item--back">
+                                <a href="@Sitecore.Links.LinkManager.GetItemUrl(item)" class="primary-nav__drop-down-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 4" class="global-header__back-arrow"><path fill="#FFF" fill-rule="evenodd" d="M4 4l4-4H0" opacity=".75" /></svg>
+                                    Back
+                                </a>
+                            </li>
+                            <li class="primary-nav__drop-down-item primary-nav__drop-down-item--parent">
+                                <a href="@Sitecore.Links.LinkManager.GetItemUrl(item)" class="primary-nav__drop-down-link">@item.Name</a>
+                            </li>
+                            @foreach (var child in item.Children.InnerChildren)
+                            {
+                                if (child.Fields["Show in Navigation"].Value == "1")
+                                {
+                                    <li class="primary-nav__drop-down-item"><a href="@Sitecore.Links.LinkManager.GetItemUrl(child)" class="primary-nav__drop-down-link">@child.Name</a></li>
+                                }
+                            }
+                        </ul>
+                    </li>
+        }
+
+
+        else
+        {
+           
+           
+                <li class="primary-nav__item ">
+                    <a href="@MenuItem.Url" class="primary-nav__link ">
+                        @MenuItem.Name
+                    </a>
+                </li>
+            
+
+        }
+
+    }
+}
+    </ul>
+

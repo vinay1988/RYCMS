@@ -1,0 +1,112 @@
+{
+  "logos": [
+    {
+      "brandName": "Brand name 1",
+      "brandLogos": [
+        {
+          "thumbnail": "logo.png",
+          "style": "Black and White",
+          "format": "EPS",
+          "size": "768Kb",
+          "link": ""
+        },
+        {
+          "thumbnail": "logo.png",
+          "style": "Black and White",
+          "format": "JPG",
+          "size": "600Kb",
+          "link": ""
+        },
+        {
+          "thumbnail": "logo.png",
+          "style": "Color - Screen - 150DPI",
+          "format": "EPS",
+          "size": "768Kb",
+          "link": ""
+        },
+        {
+          "thumbnail": "logo.png",
+          "style": "Color - Screen - 150DPI",
+          "format": "EPS",
+          "size": "768Kb",
+          "link": ""
+        },
+        {
+          "thumbnail": "logo.png",
+          "style": "Colour - Screen - RGB",
+          "format": "EPS",
+          "size": "768Kb",
+          "link": ""
+        },
+        {
+          "thumbnail": "logo.png",
+          "style": "Colour - Print",
+          "format": "JPG",
+          "size": "1Mb",
+          "link": ""
+        },
+        {
+          "thumbnail": "logo.png",
+          "style": "Colour - Print",
+          "format": "EPS",
+          "size": "768Kb",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "brandName": "Brand name 2",
+      "brandLogos": [
+        {
+          "thumbnail": "logo.png",
+          "style": "Black and White",
+          "format": "EPS",
+          "size": "768Kb",
+          "link": ""
+        },
+        {
+          "thumbnail": "logo.png",
+          "style": "Black and White",
+          "format": "JPG",
+          "size": "600Kb",
+          "link": ""
+        },
+        {
+          "thumbnail": "logo.png",
+          "style": "Color - Screen - 150DPI",
+          "format": "EPS",
+          "size": "768Kb",
+          "link": ""
+        },
+        {
+          "thumbnail": "logo.png",
+          "style": "Color - Screen - 150DPI",
+          "format": "EPS",
+          "size": "768Kb",
+          "link": ""
+        },
+        {
+          "thumbnail": "logo.png",
+          "style": "Colour - Screen - RGB",
+          "format": "EPS",
+          "size": "768Kb",
+          "link": ""
+        },
+        {
+          "thumbnail": "logo.png",
+          "style": "Colour - Print",
+          "format": "JPG",
+          "size": "1Mb",
+          "link": ""
+        },
+        {
+          "thumbnail": "logo.png",
+          "style": "Colour - Print",
+          "format": "EPS",
+          "size": "768Kb",
+          "link": ""
+        }
+      ]
+    }
+  ]
+}

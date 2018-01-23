@@ -1,0 +1,203 @@
+{
+  "markers": [
+    {
+      "title": "Abidjan (Servair)",
+      "address": "07 BP 08 Abidjan 07<br />Cote d'Ivoire",
+      "location": [5.253305008464277, -3.932086229324341],
+      "phone": "+225 21 75 08 13",
+      "fax": "+225 21 27 87 72",
+      "image": "/assets/img/card/careers3.jpg",
+      "country": "Cote d'Ivoire"
+    },
+
+    {
+      "title": "Agadir (Servair)",
+      "address": "ATLAS SERVAIR <br />Al Massira Airport",
+      "location": [30.3270276, -9.41288929999996],
+      "phone": "+212 (0)528809020/22",
+      "image": "/assets/img/card/careers2.jpg",
+      "country": "Morocco"
+    },
+
+    {
+      "title": "Bamako (Servair)",
+      "address": "A&eacute;roport de Bamako Senou<br />BPE 3803",
+      "location": [12.540926, -7.947950999999989],
+      "phone": "223 20 20 49 49",
+      "fax": "223 2020 49 47",
+      "image": "/assets/img/card/contact.jpg",
+      "country": "Mali"
+    },
+
+    {
+      "title": "Brazzaville (Servair)",
+      "address": "BP 1000<br />A&eacute;roport International Maya Maya<br />Zone Fret<br />Brazzaville, R&eacute;publique du Congo",
+      "location": [-4.258899, 15.251138999999966],
+      "phone": "242 06 66 66 902",
+      "image": "/assets/img/card/careers1.jpg",
+      "country": "DR Congo"
+    },
+
+    {
+      "title": "Casablanca (Servair)",
+      "address": "A&eacute;roport Mohamed V<br />Zone Industrielle RAM<br />BP 91 Nouasser / MAROC",
+      "location": [33.38213030000001, -7.583736400000021],
+      "phone": "212 522 53 92 53",
+      "fax": "212 522 53 91 00",
+      "image": "/assets/img/cta/contact-us.jpg",
+      "country": "Morocco"
+    },
+
+    {
+      "title": "Conakry (Servair)",
+      "address": "030 BP 557 Kipe<br />A&eacute;roport Gbessia<br />Conakry (R&eacute;publique de Guin&eacute;e)",
+      "location": [9.575655, -13.62017000000003],
+      "phone": "+224 622 353 505",
+      "image": "/assets/img/card/contact-2.jpg",
+      "country": "Guinea"
+    },
+
+    {
+      "title": "Cotonou (Servair)",
+      "address": "A&eacute;roport international Cardinal Bernardin Gantin<br />Cotonou / BENIN",
+      "location": [6.356110999999999, 2.3833329999999933],
+      "phone": "229 97 97 45 43",
+      "image": "/assets/img/card/careers3.jpg",
+      "country": "Benin"
+    },
+
+    {
+      "title": "Dakar (Servair)",
+      "address": "A&eacute;roport de L&eacute;opold S&eacute;dar Senghor<br />B.P. 8431 <br />DAKAR - SENEGAL<br />BP SENCA : 29580<br />BP SERGEST : 8431<br />BP SEREP : 8432",
+      "location": [14.744975, -17.490193999999974],
+      "phone": "221.33.820.13.50 (cisco : 8 98 31)",
+      "image": "/assets/img/card/careers2.jpg",
+      "country": "Senegal"
+    },
+
+    {
+      "title": "Douala (Servair)",
+      "address": "A&eacute;roport de Douala<br />B.P. 310<br />Douala / CAMEROUN",
+      "location": [4.01346, 9.717018000000053],
+      "phone": "237 679 50 15 11",
+      "fax": "237 3342 64 92",
+      "image": "/assets/img/card/contact.jpg",
+      "country": "Cameroon"
+    },
+
+    {
+      "title": "Kinshasa (Servair)",
+      "address": "Kinshasa <br />A&eacute;roport de N&rsquo;Djili<br />Commune de N&rsquo;Sele<br />Kinshasa <br />RD CONGO",
+      "location": [-4.386449199999999, 15.445371799999975],
+      "phone": "243 854 859 944",
+      "image": "/assets/img/card/careers1.jpg",
+      "country": "DR Congo"
+    },
+
+    {
+      "title": "Libreville (Servair)",
+      "address": "A&eacute;roport de Libreville<br />B.P. 20303<br />Libreville / GABON",
+      "location": [0.456963, 9.409852],
+      "phone": "241 01 73 74 14",
+      "fax": "241 73 82 20",
+      "image": "/assets/img/cta/contact-us.jpg",
+      "country": "Gabon"
+    },
+
+    {
+      "title": "Lagos (Servair)",
+      "address": "Pan African Catering Sces EPZE<br />Murtala Muhammed International Airport<br />Murtala Muhammed Airport Road<br />Ikeja, Lagos / NIGERIA",
+      "location": [6.5847425, 3.3327626999999893],
+      "phone": "234 708 213 8606",
+      "image": "/assets/img/card/contact-2.jpg",
+      "country": "Nigeria"
+    },
+
+    {
+      "title": "Lome (Servair)",
+      "address": "A&eacute;roport International Gnassingb&eacute; Eyad&eacute;ma<br />B.P. 3688<br />Lom&eacute; / TOGO",
+      "location": [6.170546300000001, 1.2530653999999686],
+      "phone": "228 22 23 62 25",
+      "fax": "228 22 26 45 61",
+      "image": "/assets/img/card/contact-2.jpg",
+      "country": "Togo"
+    },
+
+    {
+      "title": "Mahe (Servair)",
+      "address": "Mahe International Airport<br />Skychef<br />PO. Box 450 - Mahe &ndash; SEYCHELLES",
+      "location": [-4.6728013, 55.518599100000074],
+      "phone": "248.4381.752",
+      "fax": "248.4373.456",
+      "image": "/assets/img/card/careers3.jpg",
+      "country": "Seychelles"
+    },
+
+    {
+      "title": "Marrakech",
+      "address": "Marrakech<br />ATLAS SERVAIR<br />Menara Airport",
+      "location": [31.6081391, -8.034410600000001],
+      "phone": "+212 (0)524449944",
+      "image": "/assets/img/card/careers2.jpg",
+      "country": "Morocco"
+    },
+
+    {
+      "title": "Mombasa (Servair)",
+      "address": "PO. Box 93901<br />80115 MOI International Airport<br />Mombasa/ KENYA",
+      "location": [-4.0355, 39.597301000000016],
+      "phone": "254 413 434 002",
+      "fax": "254 413 434 001",
+      "image": "/assets/img/card/contact.jpg",
+      "country": "Kenya"
+    },
+
+    {
+      "title": "Nairobi (Servair)",
+      "address": "PO Box 19010 - 00501<br />Nairobi, Embakasi<br />KENYA",
+      "location": [-1.3326857, 36.90035139999998],
+      "phone": "254 20 6 827 900",
+      "fax": "254 20 822 323",
+      "image": "/assets/img/card/careers1.jpg",
+      "country": "Kenya"
+    },
+
+    {
+      "title": "Nouakchott (Servair)",
+      "address": "A&eacute;roport international de NKC<br />B.P. 3326 - Nouakchott<br />R&eacute;p. Islamique de Mauritanie",
+      "location": [18.1057075, -15.971915999999965],
+      "phone": "222 4529 54 49",
+      "fax": "222 429 54 78",
+      "image": "/assets/img/cta/contact-us.jpg",
+      "country": "Mauritania"
+    },
+
+    {
+      "title": "Karachi",
+      "address": "Q.I.A.P. Karachi Airport,<br />Karachi 75200<br />Pakistan",
+      "location": [24.900457, 67.1681596],
+      "phone": "+92 21 3468 7582",
+      "fax": "+92 21 3468 7585",
+      "image": "/assets/img/card/contact-2.jpg",
+      "country": "Pakistan"
+    },
+
+    {
+      "title": "Ouagadougou (Servair)",
+      "address": "10 - B.P. 13990<br />Zone Fr&ecirc;t A&eacute;roportuaire<br />Ouagadougou 10 / OUAGA - BURKINA FASO",
+      "location": [12.3506746, -1.5188415000000077],
+      "phone": "226 25 33 29 22",
+      "fax": "226 50 33 29 22",
+      "image": "/assets/img/card/careers3.jpg",
+      "country": "Burkina Faso"
+    },
+
+    {
+      "title": "Pointe-Noire",
+      "address": "SERVAIR CONGO<br />Enceinte de l&rsquo;a&eacute;roport International A. A. Neto<br />POINTE NOIRE<br />REPUBLIQUE DU CONGO",
+      "location": [-4.809799, 11.88237700000002],
+      "image": "/assets/img/card/careers2.jpg",
+      "country": "DR Congo"
+    }
+  ] 
+}

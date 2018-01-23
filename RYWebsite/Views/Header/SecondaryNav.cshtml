@@ -1,0 +1,36 @@
+﻿@model SecondaryNavModel
+<ul class="secondary-nav">
+    <li class="secondary-nav__item">
+        <a href="" class="secondary-nav__link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" class="secondary-nav__icon">
+                <g fill="none" fill-rule="evenodd" stroke="#FFFFFF" transform="translate(1 1)">
+                    <path d="M16.7166667 8.46928667C16.7166667 13.0241533 13.0276667 16.7165533 8.47733333 16.7165533 3.927 16.7165533.283333333 12.8756867.283333333 8.32082.283333333 3.88608667 3.76323333.467386667 8.14696667.290586667 8.2654.286053333 8.38383333.28322 8.50396667.28322 13.0537333.28322 16.7166667 3.91385333 16.7166667 8.46928667zM8.1464.29053C3.859 4.93436333 3.859 10.99373 8.1464 16.7096967M8.86079667.290813333C13.14763 4.93464667 13.14763 10.9917467 8.86079667 16.7077133M1.53119 12.5L15.52049 12.5M1.07746 4.5L15.86576 4.5M.29274 8.5L16.7107733 8.5" />
+                </g>
+            </svg>
+            <span class="secondary-nav__link-text">ENG</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 4" class="global-header__arrow"><path fill="#FFF" fill-rule="evenodd" d="M4 4l4-4H0" opacity=".75" /></svg>
+        </a>
+        <ul class="secondary-nav__drop-down">
+            <li class="secondary-nav__drop-down-item secondary-nav__drop-down-item--back">
+                <a href="#" class="secondary-nav__drop-down-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 4" class="global-header__back-arrow"><path fill="#FFF" fill-rule="evenodd" d="M4 4l4-4H0" opacity=".75" /></svg>
+                    Back
+                </a>
+            </li>
+            <li class="secondary-nav__drop-down-item"><a href="" class="secondary-nav__drop-down-link">Deutsch</a></li>
+            <li class="secondary-nav__drop-down-item"><a href="" class="secondary-nav__drop-down-link secondary-nav__drop-down-link--active">English</a></li>
+            <li class="secondary-nav__drop-down-item"><a href="" class="secondary-nav__drop-down-link">Francais</a></li>
+        </ul>
+    </li>
+    <li class="secondary-nav__item">
+        <a href="" class="secondary-nav__link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="18" viewBox="0 0 16 18" class="secondary-nav__icon">
+                <g fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="1.25" transform="translate(1 1)">
+                    <path d="M6.99730209,9.33333333 C-0.459047004,9.33333333 0.0057100841,16.3333333 0.0057100841,16.3333333 L13.9945335,16.3333333 C13.9945335,16.333608 14.4519925,9.33333333 6.99730209,9.33333333 Z" stroke-linejoin="round" />
+                    <path d="M7.00152156,7 C8.93473106,7 10.5,5.43644989 10.5,3.50262898 C10.5,1.5690848 8.93473106,0 7.00152156,0 C5.06526894,0 3.5,1.5690848 3.5,3.50262898 C3.5,5.43644989 5.06526894,7 7.00152156,7 Z" />
+                </g>
+            </svg>
+            <span class="secondary-nav__link-text">@Model.Login</span>
+        </a>
+    </li>
+</ul>

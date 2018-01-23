@@ -1,0 +1,75 @@
+﻿@using Glass.Mapper.Sc.Fields
+@using Glass.Mapper.Sc.Web.Mvc
+@*@using Glass.Mapper.Sc.Fields*@
+@model FooterModel
+
+
+<footer class="global-footer">
+    <div class="global-footer__inner">
+        @Html.Glass().RenderImage(Model, m => m.Logo, isEditable: true)
+        <span class="global-footer__copyright">@Model.copyrightText</span>
+
+        @{
+            int[] columns = new int[3];
+            List<FooterItems> ListofFooterItems = new List<FooterItems>();
+            decimal NumberOfColumns = 3;
+            int MinItemsPerCol = 0;
+            decimal totalitems = 0;
+            int Listitem = 0;
+        }
+        <div class="global-footer__content">
+            <nav class="footer-links">
+                @if (Model.Children != null)
+                {
+                    foreach (var item in Model.Children)
+                    {
+                        if (item.ShowinNavigation)
+                        {
+                            totalitems++;
+                            ListofFooterItems.Add(item);
+                        }
+                    }
+                }
+                @{MinItemsPerCol =(int) Math.Floor(@totalitems / @NumberOfColumns);}
+
+                @if ((int)(totalitems % NumberOfColumns) == 0)
+                {
+                    columns[0] = columns[1] = columns[2] = MinItemsPerCol;
+                }
+                else
+                {
+                    if ((int)(totalitems % NumberOfColumns) == 1)
+                    {
+                       
+                        columns[0] = MinItemsPerCol + 1;
+                        columns[1] = @columns[2] = MinItemsPerCol;
+                    }
+                    else
+                    {
+                        columns[0] = columns[1] = MinItemsPerCol + 1;
+                        columns[2] = MinItemsPerCol;
+                    }
+                }
+
+                @if (ListofFooterItems.Count > 0)
+                {
+                    for (int i = 0; i < NumberOfColumns; i++)
+                    {
+                        <ul class="footer-links__col">
+
+                            @for (int j = 0; j < columns[i]; j++)
+                            {
+
+                                <li class="footer-links__item"><a href="@ListofFooterItems[Listitem].Link.Url" class="footer-links__link"><strong>@ListofFooterItems[Listitem].Title</strong></a></li>
+                                Listitem = Listitem + 1;
+                            }
+                        </ul>
+                    }
+                }
+
+
+            </nav>
+
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,32 @@
+﻿
+@model SearchModel
+<button class="global-header__btn-mobile-nav" title="Open navigation menu"><span></span></button>
+
+<button class="global-header__btn-search">
+    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" class="global-header__btn-search-open">
+        <title>Search</title>
+        <path fill="#FFFFFF" fill-rule="evenodd" d="M1318.4722,90.1683 L1313.2202,84.9153 C1314.1932,83.6643 1314.7782,82.0973 1314.7782,80.3893 C1314.7782,76.3083 1311.4692,73.0003 1307.3892,73.0003 C1303.3082,73.0003 1300.0002,76.3083 1300.0002,80.3893 C1300.0002,84.4713 1303.3082,87.7793 1307.3892,87.7793 C1309.0962,87.7793 1310.6632,87.1953 1311.9142,86.2223 L1317.1662,91.4753 L1318.4722,90.1683 Z M1307.3892,85.9323 C1304.3322,85.9323 1301.8472,83.4463 1301.8472,80.3893 C1301.8472,77.3333 1304.3322,74.8483 1307.3892,74.8483 C1310.4452,74.8483 1312.9302,77.3333 1312.9302,80.3893 C1312.9302,83.4463 1310.4452,85.9323 1307.3892,85.9323 L1307.3892,85.9323 Z" transform="translate(-1300 -73)" />
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" class="global-header__btn-search-close">
+        <title>Close search</title>
+        <g fill="none" fill-rule="evenodd" transform="translate(-1298.000000, -67.000000) translate(1299.000000, 68.000000)" opacity=".75">
+            <circle cx="10.5" cy="10.5" r="10.5" stroke="#FFF" />
+            <rect width="2.29411765" height="14.4444444" x="9.35294118" y="3.27777778" fill="#FFF" transform="translate(10.500000, 10.500000) rotate(-45.000000) translate(-10.500000, -10.500000)" rx="1.14705882" />
+            <rect width="2.29411765" height="14.4444444" x="9.35294118" y="3.27777778" fill="#FFF" transform="translate(10.500000, 10.500000) scale(-1, 1) rotate(-45.000000) translate(-10.500000, -10.500000)" rx="1.14705882" />
+        </g>
+    </svg>
+</button>
+
+<form action="/search-results.html" class="global-header__search">
+    <label for="header-search" class="global-header__search-label">Search</label>
+    <input type="text" id="header-search" class="global-header__search-field" placeholder="@Model.PlaceholderText">
+    <button type="submit" class="global-header__submit">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 19" class="global-header__search-icon">
+            <title>Search</title>
+            <path fill="#FFFFFF" fill-rule="evenodd" d="M1318.4722,90.1683 L1313.2202,84.9153 C1314.1932,83.6643 1314.7782,82.0973 1314.7782,80.3893 C1314.7782,76.3083 1311.4692,73.0003 1307.3892,73.0003 C1303.3082,73.0003 1300.0002,76.3083 1300.0002,80.3893 C1300.0002,84.4713 1303.3082,87.7793 1307.3892,87.7793 C1309.0962,87.7793 1310.6632,87.1953 1311.9142,86.2223 L1317.1662,91.4753 L1318.4722,90.1683 Z M1307.3892,85.9323 C1304.3322,85.9323 1301.8472,83.4463 1301.8472,80.3893 C1301.8472,77.3333 1304.3322,74.8483 1307.3892,74.8483 C1310.4452,74.8483 1312.9302,77.3333 1312.9302,80.3893 C1312.9302,83.4463 1310.4452,85.9323 1307.3892,85.9323 L1307.3892,85.9323 Z" transform="translate(-1300 -73)" />
+        </svg>
+    </button>
+    <button class="global-header__close">
+        Close
+    </button>
+</form>

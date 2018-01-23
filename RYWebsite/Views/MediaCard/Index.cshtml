@@ -1,0 +1,55 @@
+﻿@model MediaCardModel
+@using Glass.Mapper.Sc.Web.Mvc
+<div class="container container--flex">
+
+    @if (Model.Children != null)
+    {
+        int i = 0;
+        foreach (var item in Model.Children)
+        {
+            //Need a implementation of Take(3) method as Lazy loading have not supported the Take(3)
+            if (i == 3) { continue; }
+
+            <div class="media-card">
+                <div class="media-card__img">
+                    @Html.Glass().RenderImage(item, m => m.Image, new { @class = " ",@h=217,@w=385 }, isEditable: true)
+                  
+                </div>
+                <div class="media-card__content"><span class='label'>@item.Title</span><h2>@item.Heading</h2><p>
+                    @item.Content</p>
+                @if (item.ButtonLink != null &&  !string.IsNullOrEmpty(item.ButtonLink.Url))
+                {
+                <a href='@item.ButtonLink.Url' class='btn'>@item.ButtonText</a>
+                }
+                else
+                {
+                    <a href='@item.ButtonLink' class='btn'>@item.ButtonText</a>
+                }
+                </div>
+
+            </div>
+            i++;
+        }
+    }
+    @*<div class="media-card">
+        <div class="media-card__img">
+            <img src="/assets/img/card/home1.jpg" alt="">
+        </div>
+        <div class="media-card__content"><span class='label'>Who we are11</span><h2>Underpinned by operational excellence</h2><p>Operational excellence and on-time delivery are the foundation of our business. We maintain the highest standards through the largest network worldwide.</p><a href='/who-we-are.html' class='btn'>Discover who we are</a></div>
+
+    </div>
+    <div class="media-card">
+        <div class="media-card__img">
+            <img src="/assets/img/card/home2.jpg" alt="">
+        </div>
+        <div class="media-card__content"><span class='label'>Insight and innovation</span><h2>Taking flight catering to new heights</h2><p>A behind the scenes look at everything we do. Through our four centres of excellence – Culinary, Retail, Technology and Innovation, we transform the airline catering industry to upgrade the passenger experience.</p><a href='/who-we-are.html' class='btn'>Explore our insight and innovation</a></div>
+
+    </div>
+    <div class="media-card">
+        <div class="media-card__img">
+            <img src="/assets/img/card/home3.jpg" alt="">
+        </div>
+        <div class="media-card__content"><span class='label'>Insight and innovation</span><h2>Taking flight catering to new heights</h2><p>A behind the scenes look at everything we do. Through our four centres of excellence – Culinary, Retail, Technology and Innovation, we transform the airline catering industry to upgrade the passenger experience.</p><a href='/who-we-are.html' class='btn'>Explore our insight and innovation</a></div>
+
+    </div>*@
+</div>

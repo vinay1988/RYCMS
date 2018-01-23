@@ -1,0 +1,107 @@
+﻿@model MediaCardItem
+@using Glass.Mapper.Sc.Web.Mvc
+<main>
+    <div class="hero ">
+        <div class="hero__backgrounds">
+            @*<div class="hero__background" style="background-image: url('/assets/img/hero/exec.jpg')"></div>*@
+            <div class="media-card__img">
+                @Html.Glass().RenderImage(Model, m => m.Image, new { @class = " " }, isEditable: true)
+
+            </div>
+        </div>
+        <div class="hero__inner">
+
+            <h1 class="hero__title">@Model.Title</h1>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <p class="intro-text">
+            @Model.Content
+        </p>
+    </div>
+    @*<div class="people-list">
+        <div class="cta">
+            <a href="#" class="cta__link">
+                <img src="/assets/img/cta/xavier-rossinyol.jpg" alt="" class="cta__img">
+                <div class="cta__content">
+                    <span class="label">Xavier Rossinyol</span>
+                    <p class="cta__desc">Chief Executive Officer</p>
+                </div>
+            </a>
+
+            <div class="cta__bio">Mr. Rossinyol has more than 20 years of experience in the airline service industry with a strong track record when it comes to performing in equity markets.</div>
+        </div>
+        <div class="cta">
+            <a href="#" class="cta__link">
+                <img src="/assets/img/cta/christoph-schmitz.jpg" alt="" class="cta__img">
+                <div class="cta__content">
+                    <span class="label">Christoph Schmitz</span>
+                    <p class="cta__desc">Chief Financial Officer</p>
+                </div>
+            </a>
+
+            <div class="cta__bio">Mr. Schmitz oversees the global financial activity for the Group, encompassing financial strategy and planning, accounting and controlling, treasury and financial management, tax, mergers and acquisitions, and information technology.</div>
+        </div>
+        <div class="cta">
+            <a href="#" class="cta__link">
+                <img src="/assets/img/cta/herman-anbeek.jpg" alt="" class="cta__img">
+                <div class="cta__content">
+                    <span class="label">Herman Anbeek</span>
+                    <p class="cta__desc">President Americas &amp; EMEA</p>
+                </div>
+            </a>
+
+            <div class="cta__bio">Mr. Anbeek has more than 20 years’ experience in aviation and the airline catering industry with a focus on commercial strategy and market development. </div>
+        </div>
+        <div class="cta">
+            <a href="#" class="cta__link">
+                <img src="/assets/img/cta/jann-fisch.jpg" alt="" class="cta__img">
+                <div class="cta__content">
+                    <span class="label">Jann Fisch</span>
+                    <p class="cta__desc">President Asia Pacific</p>
+                </div>
+            </a>
+
+            <div class="cta__bio">Mr. Fisch has more than two decades of experience in leading large, complex operational units in the catering and airline industries, including experience in operational turnarounds and launching innovative service offerings.</div>
+        </div>
+        <div class="cta">
+            <a href="#" class="cta__link">
+                <img src="/assets/img/cta/jerry-dong.jpg" alt="" class="cta__img">
+                <div class="cta__content">
+                    <span class="label">Jerry Dong</span>
+                    <p class="cta__desc">Chief Integration Officer and President Special Projects</p>
+                </div>
+            </a>
+
+            <div class="cta__bio">Mr. Dong is a seasoned and respected business leader in the global airlines, air cargo and logistics industry with deep expertise in business acquisition and administration.</div>
+        </div>
+        <div class="cta">
+            <a href="#" class="cta__link">
+                <img src="/assets/img/cta/michel-emeyriat.jpg" alt="" class="cta__img">
+                <div class="cta__content">
+                    <span class="label">Michel Emeyriat</span>
+                    <p class="cta__desc">President Southern Europe and Africa</p>
+                </div>
+            </a>
+
+            <div class="cta__bio">With more than 25 years of experience in the airlines industry, Michel Emeyriat is a recognized expert in the management of airport operations, especially in the complex mechanics of hubs, and a formidable connoisseur of airport networking.</div>
+        </div>
+    </div>*@
+    @*<script id="js-bio" type="text/x-handlebars-template">
+        <button class="people-list__close">
+            <span class="people-list__close-text">Close</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 54">
+                <g fill="none" fill-rule="evenodd">
+                    <circle cx="27" cy="27" r="27" fill="#1A99D6" transform="translate(-1311.000000, -784.000000) translate(0.000000, 750.000000) translate(1192.000000, 34.000000) translate(119.000000, 0.000000)" />
+                    <path stroke="#FFF" stroke-width="2" d="M20.98959236 20.98959236l12.02081528 12.02081528m0-12.02081528L20.98959236 33.01040764" stroke-linecap="round" />
+                </g>
+            </svg>
+        </button>
+        <h2 class="people-list__name">{{title}}</h2>
+        <span class="people-list__title">{{desc}}</span>
+        <p class="people-list__desc">{{bio}}</p>
+    </script>*@
+
+</main>

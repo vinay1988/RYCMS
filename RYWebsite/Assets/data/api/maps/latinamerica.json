@@ -1,0 +1,161 @@
+{
+  "markers": [
+
+    {
+      "title": "Bogot&agrave;",
+      "address": "Calle 26 No 92 &ndash; 32 Lote 1<br />Bogot&aacute; D.C. <br />Colombia",
+      "location": [4.5980556, -74.0758333],
+      "phone": "+57 1 414 7979",
+      "fax": "+57 1 414 79 79 ext. 129 or 134",
+      "image": "/assets/img/card/careers3.jpg",
+      "country": "Colombia"
+    },
+
+    {
+      "title": "Buenos Aires - Aeroparque",
+      "address": "M&oacute;dulo de Cargas A&eacute;reas<br />Aeroparque International Airport<br />Ciudad Aut&oacute;noma de Buenos Aires <br />C1425DAA<br />Argentina",
+      "location": [-34.6037232, -58.3815931],
+      "phone": "+54 11 4773 1801",
+      "fax": "+54 11 4773 1801 - Ext. 128",
+      "image": "/assets/img/card/careers2.jpg",
+      "country": "Argentina"
+    },
+
+    {
+      "title": "Buenos Aires - Ezeiza",
+      "address": "Avda. Teniente General Morillas s/n<br />Ezeiza International Airport<br />Buenos Aires  B1802EZE<br />Argentina",
+      "location": [-34.822491, -58.5349216],
+      "phone": "+54 11 5480 9011",
+      "fax": "+54 11 5480 0772",
+      "image": "/assets/img/card/contact.jpg",
+      "country": "Argentina"
+    },
+
+    {
+      "title": "Canc&uacute;n",
+      "address": "Carretera Canc&uacute;n Aeropuerto Km. 17<br />Central de Abastos 103-104-105<br />Canc&uacute;n, Quintana Roo<br />C.P. 77560<br />M&eacute;xico",
+      "location": [21.1691003, -86.8672502],
+      "phone": "+52 998 8862022, Ext. 119",
+      "image": "/assets/img/card/careers1.jpg",
+      "country": "Mexico"
+    },
+
+    {
+      "title": "Cochabamba",
+      "address": "Calle Teniente Monasterios S/N,<br />Provincia Cercado, 2500<br />Bolivia",
+      "location": [-14.834887, -64.8985247],
+      "phone": "+591 4533000",
+      "image": "/assets/img/cta/contact-us.jpg",
+      "country": "Bolivia"
+    },
+
+    {
+      "title": "Guadalajara",
+      "address": "Av. Solidaridad Iberoamericana #7810<br />Col. Las Pintitas Mpio<br />El Salto Jalisco <br />C.P. 45693<br />M&eacute;xico",
+      "location": [20.5600955, -103.3057316],
+      "phone": "+33 36 95 87 07",
+      "image": "/assets/img/card/contact-2.jpg",
+      "country": "Mexico"
+    },
+
+    {
+      "title": "Guayaquil ",
+      "address": "Av. de las Am&eacute;ricas s/n<br />junto American Airlines Cargo<br />Aeropuerto Jos&eacute; Joaqu&iacute;n de Olmedo<br />Guayaquil<br />Ecuador",
+      "location": [-2.158056, -79.883889],
+      "phone": "+593 4 2287 626",
+      "fax": "+593 4 2287 034",
+      "image": "/assets/img/card/careers3.jpg",
+      "country": "Ecuador"
+    },
+
+    {
+      "title": "La Paz ",
+      "address": "Av. Santos Dumont P1<br />Dpto 1 No. 2012<br />Provincia Murillo, 12087<br />Bolivia",
+      "location": [-16.511415123540885, -68.19001808730468],
+      "phone": "+591 2124828",
+      "image": "/assets/img/card/careers2.jpg",
+      "country": "Bolivia"
+    },
+
+    {
+      "title": "Lima",
+      "address": "Aeropuerto Internacional Jorge Chavez <br />Zona Norte s/n<br />Callao<br />PO Box<br />Casilla 1191, Lima 1<br />Per&uacute;",
+      "location": [-12.0240527, -77.112036],
+      "phone": "+511 5751621",
+      "fax": "+51 1 575 3751",
+      "image": "/assets/img/card/contact.jpg",
+      "country": "Peru"
+    },
+
+    {
+      "title": "M&eacute;xico City (MAASA)",
+      "address": "Avenida Santarini s/n Zona &quot;A&quot; de Hangares<br />Aeropuerto Intl. Cd. de M&eacute;xico<br />M&eacute;xico, D.F., C.P. 15740",
+      "location": [19.430202, -99.063946],
+      "phone": "+52 55 57 16 67 00",
+      "fax": "+52 55 5115 3605",
+      "image": "/assets/img/card/careers1.jpg",
+      "country": "Mexico"
+    },
+
+    {
+      "title": "Monterrey (MAASA) ",
+      "address": "Abraham Villareal # 256<br />Colonia Miguel Aleman<br />San Nicolas de los Garza, Nuevo Leon<br />C.P. 66470<br />Mexico",
+      "location": [25.715974, -100.2239743],
+      "phone": "+52 81 13 44 15 63",
+      "fax": "+52 81 83 27 70 42",
+      "image": "/assets/img/cta/contact-us.jpg",
+      "country": "Mexico"
+    },
+
+    {
+      "title": "Quito",
+      "address": "Luis Tufi&ntilde;o Oe 3 - 245 &amp; Tycaro<br />Aeropuerto Internacional Mariscal Sucre<br />Quito<br />Ecuador",
+      "location": [-0.1133333, -78.3586111],
+      "phone": "+593 2 2595 257",
+      "fax": "+593 2 2590 069",
+      "image": "/assets/img/card/contact-2.jpg",
+      "country": "Ecuador"
+    },
+
+    {
+      "title": "Rio de Janeiro",
+      "address": "Avenida Vinte de Janeiro, s/n, &Aacute;rea de Apoio do Aeroporto Internacional do R. J. - T/103<br />21941-570 Ilha do Governador, Rio de Janeiro<br />Brazil",
+      "location": [-22.8137042, -43.2449254],
+      "phone": "+55 21 3398 5930",
+      "fax": "+55 21 3398 5799",
+      "image": "/assets/img/card/careers3.jpg",
+      "country": "Brazil"
+    },
+
+    {
+      "title": "Santa Cruz de la Sierra",
+      "address": "Carretera al Norte Km. 13 <br />Aqualand, Santa Cruz de la Sierra<br />Provincia Andres Iba&ntilde;ez, 10260<br />Bolivia",
+      "location": [-17.654164085119124, -63.1583833694458],
+      "phone": "+591 3853388",
+      "image": "/assets/img/card/careers2.jpg",
+      "country": "Bolivia"
+    },
+
+    {
+      "title": "Santiago de Chile",
+      "address": "Avenida General Oscar Bonilla 9469<br />Casilla 16<br />Correo 6 - Pudahuel, Santiago<br />Chile",
+      "location": [-33.4469555, -70.7679163],
+      "phone": "+56 2 810 3800",
+      "fax": "+56 2 649 9083",
+      "image": "/assets/img/card/contact.jpg",
+      "country": "Chile"
+    },
+
+    {
+      "title": "S&atilde;o Paulo",
+      "address": "Rua Maria Garcia Utrilla, 453<br />Cumbica<br />07230-640 Guarulhos, S&atilde;o Paulo<br />Brazil",
+      "location": [-23.478417, -46.4604947],
+      "phone": "+55 11 3529 0100",
+      "fax": "+55 11 3529 0199",
+      "image": "/assets/img/card/careers1.jpg",
+      "country": "Brazil"
+    }
+
+  ]     
+
+}

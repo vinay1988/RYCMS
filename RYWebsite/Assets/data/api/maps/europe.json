@@ -1,0 +1,490 @@
+{
+  "markers": [
+    {
+      "title": "Amsterdam",
+      "address": "Cateringweg 3<br />P.O. Box 7528<br />1118 AM Schiphol North<br />The Netherlands",
+      "phone": "+31 20 601 92 22",
+      "fax": "+31 20 601 56 07",
+      "location": [52.3227873, 4.80052090000004],
+      "image": "/assets/img/card/careers3.jpg",
+      "country": "The Netherlands"
+    },
+
+    {
+      "title": "Barcelona",
+      "address": "Avda. Onze Setembre, s/n<br />Parc de Negocis Mas Blau<br />08820 El Prat de Llobregat<br />Spain",
+      "phone": "+34 93 479 18 40",
+      "fax": "+34 93 379 99 85",
+      "location": [41.3139338, 2.06891719999999],
+      "image": "/assets/img/card/careers2.jpg",
+      "country": "Spain"
+    },
+
+    {
+      "title": "Basel / St. Louis",
+      "address": "EuroAirport<br />Basel-Mulhouse-Freiburg<br />F-68300 Saint Louis<br />France",
+      "phone": "+33 3 89 90 39 01",
+      "fax": "+33 3 89 90 39 19",
+      "location": [47.5987343, 7.52911789999996],
+      "image": "/assets/img/card/contact.jpg",
+      "country": "France"
+    },
+
+    {
+      "title": "Bergen",
+      "address": "Flyplassveien 439<br />Bergen Airport<br />P.O. Box 8, Flesland<br />5869 Bergen<br />Norway",
+      "phone": "+47 21 95 92 20",
+      "fax": "+47 55 72 72 01",
+      "location": [60.2932315, 5.22824590000005],
+      "image": "/assets/img/card/careers1.jpg",
+      "country": "Norway"
+    },
+
+    {
+      "title": "Berlin Sch&ouml;nefeld",
+      "address": "Unit Berlin Sch&ouml;nefeld<br />Flughafen Berlin Sch&ouml;nefeld<br />12521 Berlin<br />Germany",
+      "phone": "+49 30 6091 8660",
+      "fax": "+49 30 6091 8663",
+      "email": "dispatch-sxf@gategroup.com",
+      "location": [52.3877958, 13.5167363],
+      "image": "/assets/img/cta/contact-us.jpg",
+      "country": "Germany"
+    },
+
+    {
+      "title": "Billund",
+      "address": "Cargo Centervej 39-41<br />P.O. Box<br />7190 Billund<br />Denmark",
+      "phone": "+45 32 47 08 88",
+      "fax": "+45 753 53 405",
+      "location": [55.735999, 9.14053999999999],
+      "image": "/assets/img/card/contact-2.jpg",
+      "country": "Denmark"
+    },
+
+    {
+      "title": "Bristol",
+      "address": "Freight Terminal<br />Bristol Airport<br />Bristol<br />North Somerset BS48 3DP<br />United Kingdom",
+      "phone": "+44 127 547 39 00",
+      "fax": "+44 127 547 49 23",
+      "location": [51.383036, -2.71861809999996],
+      "image": "/assets/img/card/careers3.jpg",
+      "country": "United Kingdom"
+    },
+
+    {
+      "title": "Cayenne",
+      "address": "SOGRI - A&eacute;roport F&eacute;lix EBOUE<br />B.P. 47<br />97351 MATOURY Cedex",
+      "phone": "+594 25 21 70",
+      "location": [4.8222247, -52.36389750000001],
+      "image": "/assets/img/card/careers2.jpg",
+      "country": "France"
+    },
+
+    {
+      "title": "Copenhagen",
+      "address": "Kystvejen 42<br />DK-2770 Kastrup<br />Denmark",
+      "phone": "+45 32 47 08 88",
+      "fax": "+45 32 47 08 99",
+      "location": [55.613559, 12.67652],
+      "image": "/assets/img/card/contact.jpg",
+      "country": "Denmark"
+    },
+
+    {
+      "title": "Dublin",
+      "address": "South Apron<br />Dublin Airport<br />Co. Dublin<br />Ireland",
+      "phone": "+353 1 814 9100",
+      "fax": "+353 1 844 4088",
+      "email": "dublindispatch@gategroup.com",
+      "location": [53.4275151, -6.244733],
+      "image": "/assets/img/card/careers1.jpg",
+      "country": "Ireland"
+    },
+
+    {
+      "title": "D&uuml;sseldorf ",
+      "address": "Unit D&uuml;sseldorf<br />Frachtstrasse 33<br />40474 D&uuml;sseldorf<br />Germany",
+      "phone": "+49 211 4178 0",
+      "fax": "+49 211 4178 69",
+      "email": "disp.dus@gategroup.com",
+      "location": [51.2738092, 6.74218710000002],
+      "image": "/assets/img/cta/contact-us.jpg",
+      "country": "Germany"
+    },
+
+    {
+      "title": "Fort de France (Servair)",
+      "address": "A&eacute;roport Martinique Aim&eacute; C&eacute;saire<br />97232 Lamentin<br />Martinique",
+      "phone": "05 96 51 95 25",
+      "fax": "05 96 51 41 80",
+      "location": [14.5917077, -61.00492980000001],
+      "image": "/assets/img/card/contact-2.jpg",
+      "country": "France"
+    },
+
+    {
+      "title": "Frankfurt ",
+      "address": "Unit Frankfurt<br />Admiral-Rosendahl-Strasse 2 - 8<br />63263 Neu-Isenburg / Zeppelinheim<br />Germany",
+      "phone": "+49 69 96950 0",
+      "fax": "+49 69 96950 404",
+      "email": "dispatch.fra@gategroup.com",
+      "location": [50.03646, 8.60838999999999],
+      "image": "/assets/img/card/careers3.jpg",
+      "country": "Germany"
+    },
+
+    {
+      "title": "Geneva",
+      "address": "Route de L'A&eacute;roport 1<br />P.O. Box 347<br />CH-1215 Geneva 15<br />Switzerland",
+      "phone": "+41 22 799 50 14",
+      "fax": "+41 22 799 50 13",
+      "email": "DL_GVA_Dispatch@gategroup.com",
+      "location": [46.2272839, 6.10124999999994],
+      "image": "/assets/img/card/careers2.jpg",
+      "country": "Switzerland"
+    },
+
+    {
+      "title": "Glasgow",
+      "address": "Campsie Drive<br />Glasgow Airport<br />Abbotsinch, Paisley<br />Renfrewshire PA3 2SG<br />Scotland, United Kingdom",
+      "phone": "+44 141 889 7031",
+      "fax": "+44 141 887 9898",
+      "location": [55.8660556, -4.42620490000002],
+      "image": "/assets/img/card/contact.jpg",
+      "country": "United Kingdom"
+    },
+
+    {
+      "title": "Gothenburg",
+      "address": "R&auml;vel&aring;sv&auml;gen 1<br />P.O. Box 2017<br />SE-438 11 G&ouml;teborg-Landvetter<br />Sweden",
+      "phone": "+46 840 300 122",
+      "fax": "+46 319 462 10",
+      "location": [57.665095, 12.2975477],
+      "image": "/assets/img/card/careers1.jpg",
+      "country": "Sweden"
+    },
+
+    {
+      "title": "Hamburg",
+      "address": "Unit Hamburg<br />Gutenbergring 69 b<br />22848 Norderstedt<br />Germany",
+      "phone": "+49 40 534 377 0",
+      "fax": "+49 40 534 377 43",
+      "email": "dispatch.ham@gategroup.com",
+      "location": [53.65834, 9.98347999999999],
+      "image": "/assets/img/cta/contact-us.jpg",
+      "country": "Germany"
+    },
+
+    {
+      "title": "Hanover (and Bremen)",
+      "address": "Unit Hanover<br />Industriestrasse 7<br />30855 Langenhagen<br />Germany",
+      "phone": "+49 511 655 297 10",
+      "fax": "+49 511 655 297 50",
+      "email": "dispatch_haj@gategroup.com",
+      "location": [52.47829, 9.74333999999999],
+      "image": "/assets/img/card/contact-2.jpg",
+      "country": "Germany"
+    },
+
+    {
+      "title": "Leipzig (and Dresden, Erfurt)",
+      "address": "Unit Leipzig<br />Industriestrasse 76<br />04435 Schkeuditz<br />Germany",
+      "phone": "+49 34204 7096 14",
+      "fax": "+49 34204 7096 30",
+      "email": "dispatchlej@gategroup.com",
+      "location": [51.40379, 12.20796],
+      "image": "/assets/img/cta/contact-us.jpg",
+      "country": "Germany"
+    },
+
+    {
+      "title": "London - Heathrow North",
+      "address": "Unit DC4, Pro Logis Park<br />West Drayton<br />Middlesex UB7 9FN<br />United Kingdom",
+      "phone": "+44 208 757 6400",
+      "fax": "+44 208 757 6460",
+      "location": [51.5037447, -0.447878700000047],
+      "image": "/assets/img/card/careers3.jpg",
+      "country": "United Kingdom"
+    },
+
+    {
+      "title": "London - Heathrow West",
+      "address": "Building 1071, Southampton Road<br />Heathrow Airport<br />Hounslow<br />Middlesex TW6 3AQ<br />United Kingdom",
+      "phone": "+44 208 757 6400",
+      "fax": "+44 208 757 6041",
+      "location": [51.4586418, -0.463054899999975],
+      "image": "/assets/img/card/careers2.jpg",
+      "country": "United Kingdom"
+    },
+
+    {
+      "title": "London Gatwick",
+      "address": "Perimeter Road South<br />Gatwick Airport<br />West Sussex<br />RH6 0PE<br />United Kingdom",
+      "phone": "+44 129 344 61 00",
+      "fax": "+44 129 344 6113",
+      "location": [51.1473741, -0.181856499999981],
+      "image": "/assets/img/card/contact.jpg",
+      "country": "United Kingdom"
+    },
+
+    {
+      "title": "Madrid",
+      "address": "Ctra. La Mu&ntilde;oza, s/n<br />28042 Madrid<br />Spain",
+      "phone": "+34 913 05 91 00",
+      "fax": "+34 917 47 87 11",
+      "location": [40.4537439, -3.53458599999999],
+      "image": "/assets/img/card/careers1.jpg",
+      "country": "Spain"
+    },
+
+    {
+      "title": "Malm&ouml;",
+      "address": "F&auml;ltv&auml;gen<br />P.O. Box 46<br />SE-230 32 Malm&ouml;-Sturup<br />Sweden",
+      "phone": "+46 840 300 122",
+      "fax": "+46 40 500 640",
+      "location": [55.5376661, 13.3632202],
+      "image": "/assets/img/cta/contact-us.jpg",
+      "country": "Sweden"
+    },
+
+    {
+      "title": "Mayotte (Servair)",
+      "address": "PANIMA S.A.S.<br />Ironi B&eacute;<br />97660 DEMBENI<br />MAYOTTE",
+      "phone": "+262 (0)639695959",
+      "location": [-12.832032, 45.19389100000001],
+      "image": "/assets/img/card/contact-2.jpg",
+      "country": "France"
+    },
+
+    {
+      "title": "Milan",
+      "address": "GATE GOURMET ITALIA<br />Via del gregge 100<br />21015 Lonate Pozzolo (VA)",
+      "phone": "+39 0331 300137",
+      "fax": "+39 0331300137",
+      "location": [45.5938671, 8.71397090000005],
+      "image": "/assets/img/card/contact-2.jpg",
+      "country": "Italy"
+    },
+
+    {
+      "title": "Munich",
+      "address": "Unit Munich<br />Nordallee 10<br />85356 M&uuml;nchen-Airport<br />Germany",
+      "phone": "+49 89 97593 424",
+      "fax": "+49 89 97593 406",
+      "email": "dispatmuc.muc@gategroup.com",
+      "location": [48.3549538, 11.7632568],
+      "image": "/assets/img/card/careers3.jpg",
+      "country": "Germany"
+    },
+
+    {
+      "title": "Oslo / Gardermoen",
+      "address": "Tryggve Grans Veg 15<br />Post Box 47<br />2060 Gardermoen<br />Norway",
+      "phone": "+47 21 95 92 20",
+      "fax": "+47 64 81 01 01",
+      "location": [60.1888257, 11.1086242],
+      "image": "/assets/img/card/careers2.jpg",
+      "country": "Norway"
+    },
+
+    {
+      "title": "Paderborn (and M&uuml;nster / Osnabr&uuml;ck, Dortmund) ",
+      "address": "Unit Paderborn <br />Gewerbegebiet am Flughafen<br />Zeppelinring 16<br />33142 B&uuml;ren - Ahlen<br />Germany",
+      "phone": "+49 2955 76 01 10",
+      "fax": "+49 2955 76 01 52",
+      "email": "dispatchpad1@gategroup.com",
+      "location": [51.7600942, 7.89732279999998],
+      "image": "/assets/img/card/contact.jpg",
+      "country": "Germany"
+    },
+
+    {
+      "title": "Paris Roissy (Servair)",
+      "address": "PASSERELLE CDG<br />10-14 rue de Rome<br />BP 19701 Tremblay en France - Roissy<br />CC 59",
+      "phone": "01 48 16 21 90",
+      "fax": "Fax: 01 48 16 62 17",
+      "location": [49.0088344, 2.55742859999998],
+      "image": "/assets/img/card/careers1.jpg",
+      "country": "France"
+    },
+
+    {
+      "title": "Paris Roissy (Servair)",
+      "address": "PAC CENTRE<br />Zone Industrielle<br />15 rue de la grande Borne",
+      "phone": "01 48 16 22 00",
+      "fax": "01 48 16 62 11",
+      "location": [49.0150411, 2.6006631999999854],
+      "image": "/assets/img/cta/contact-us.jpg",
+      "country": "France"
+    },
+
+    {
+      "title": "Paris Roissy (Servair)",
+      "address": "PAC EST<br />4 rue des Iris<br />BP 13628<br />95724 ROISSY CDG Cedex",
+      "phone": "01 48 16 21 61",
+      "fax": "01 48 16 21 84",
+      "location": [49.0037444, 2.5711870999999746],
+      "image": "/assets/img/card/contact-2.jpg",
+      "country": "France"
+    },
+
+    {
+      "title": "Paris Roissy (Servair)",
+      "address": "PAC OUEST<br />Zone Technique - B&acirc;t 7600<br />14 rue de la Pomme Bleue<br />BP 16144 Roissy en France",
+      "phone": "01 48 64 88 33",
+      "fax": "01 48 64 62 56",
+      "location": [49.010025, 2.537099000000012],
+      "image": "/assets/img/card/contact-2.jpg",
+      "country": "France"
+    },
+
+    {
+      "title": "Paris Roissy (Servair)",
+      "address": "PAC NORD<br />Strat&eacute;gic Parc<br />16 rue de la Grande Borne<br />77990 LE MESNIL AMELOT",
+      "phone": "01 48 16 45 79",
+      "fax": "01 48 64 85 02/03",
+      "location": [49.018804, 2.5987820000000283],
+      "image": "/assets/img/card/careers3.jpg",
+      "country": "France"
+    },
+
+    {
+      "title": "Paris Roissy (Servair)",
+      "address": "SERVAIR 1<br />15 rue des Vignes<br />Zone Cargo <br />95707 Roissy CDG Cedex",
+      "phone": "01 48 16 12 01",
+      "fax": "01 48 16 56 26",
+      "location": [49.0027264, 2.549363200000016],
+      "image": "/assets/img/card/careers2.jpg",
+      "country": "France"
+    },
+
+    {
+      "title": "Paris Roissy (Servair)",
+      "address": "SERVAIR 2<br />4 rue de la Fossette<br />BP 13044 - Zone logistique du Mesnil Amelot-<br />95723 ROISSY CDG CEDEX",
+      "phone": "01 48 64 87 09",
+      "fax": "01 48 64 87 00",
+      "location": [49.0096906, 2.547924500000022],
+      "image": "/assets/img/card/contact.jpg",
+      "country": "France"
+    },
+
+    {
+      "title": "Paris Roissy (Servair)",
+      "address": "ACNA<br />10 rue des Iris<br />B&acirc;t 6420 - BP 18605<br />95724 ROISSY CDG Cedex",
+      "phone": "01 48 62 49 56",
+      "fax": "01 48 62 29 27",
+      "location": [49.0037444, 2.5711870999999746],
+      "image": "/assets/img/card/careers1.jpg",
+      "country": "France"
+    },
+
+    {
+      "title": "Paris Roissy (Servair)",
+      "address": "HEAD OFFICE SERVAIR <br />10-14 rue de Rome<br />BP 19701 - 95726 ROISSY Charles de Gaulle Cedex",
+      "phone": "01 48 64 85 85",
+      "location": [49.008994, 2.556691999999998],
+      "image": "/assets/img/cta/contact-us.jpg",
+      "country": "France"
+    },
+
+    {
+      "title": "Paris Orly (Servair)",
+      "address": "ACNA<br />Orly Sud 182<br />94542 Orly A&eacute;rogares Cedex",
+      "phone": "01 74 22 16 01",
+      "fax": "Fax: 01 49 75 57 53",
+      "location": [48.7282419, 2.369445199999973],
+      "image": "/assets/img/card/contact-2.jpg",
+      "country": "France"
+    },
+
+    {
+      "title": "Paris Orly (Servair)",
+      "address": "OAT<br />1 rue du Pont de Pierre<br />BP 61<br />91322 WISSOUS Cedex",
+      "phone": "01 49 75 82 00",
+      "fax": "01 48 16 62 44",
+      "location": [48.72427510000001, 2.34520109999994],
+      "image": "/assets/img/card/contact-2.jpg",
+      "country": "France"
+    },
+
+    {
+      "title": "Pointe-&agrave;-Pitre (Servair)",
+      "address": "Zone de Fret Nord<br />A&eacute;roport P&ocirc;le Cara&iuml;bes<br />97139 Abymes &ndash; GUADELOUPE",
+      "phone": "05 90 21 17 14",
+      "fax": "05 90 21 1731",
+      "location": [16.2676129, -61.52724899999998],
+      "image": "/assets/img/card/careers3.jpg",
+      "country": "France"
+    },
+
+    {
+      "title": "Rome",
+      "address": "GATE GOURMET ITALIA<br />Via dell&rsquo;aeroporto di Fiumicino 164<br />00054 Fiumicino (RM)",
+      "phone": "+39 06 45765041",
+      "location": [41.765784, 12.265262900000039],
+      "image": "/assets/img/card/careers2.jpg",
+      "country": "Italy"
+    },
+
+    {
+      "title": "Rome (Servair)",
+      "address": "SERVAIR SOLUTIONS ITALIA <br />Via Generale Felice Santini snc<br />00054 Fiumicino Aeroporto<br />Torre EPUA 2 / ITALIA",
+      "phone": "39 06 6595 8585",
+      "location": [41.7946409, 12.251548700000058],
+      "image": "/assets/img/card/contact.jpg",
+      "country": "Italy"
+    },
+
+    {
+      "title": "Saarbr&uuml;cken",
+      "address": "Unit Saarbr&uuml;cken<br />Flughafen Saarbr&uuml;cken<br />66131 Saarbr&uuml;cken<br />Germany",
+      "phone": "+49 689 373 58",
+      "fax": "+49 689 349 00",
+      "email": "gg.scn@gategroup.com",
+      "location": [49.2200734, 7.11237819999997],
+      "image": "/assets/img/card/careers1.jpg",
+      "country": "Germany"
+    },
+
+    {
+      "title": "Saint-Denis (Servair)",
+      "address": "A&eacute;roport de la R&eacute;union Roland Garros<br />R&eacute;union 74 avenue Roland Garros<br />A&eacute;rogare Passagers<br />97438 SAINTE MARIE<br />REUNION",
+      "phone": "02 62 48 81 60 / 01 48 64 84 92",
+      "fax": "02 62 29 60 26",
+      "location": [-20.891394, 55.51780009999993],
+      "image": "/assets/img/cta/contact-us.jpg",
+      "country": "France"
+    },
+
+    {
+      "title": "Stockholm",
+      "address": "Driftv&auml;gen<br />Box 124<br />SE-190 46 Stockholm-Arlanda<br />Sweden",
+      "phone": "+46 840 300 122",
+      "fax": "+46 859 360 666",
+      "location": [59.6489819, 17.9396735],
+      "image": "/assets/img/card/contact-2.jpg",
+      "country": "Sweden"
+    },
+
+    {
+      "title": "Stuttgart",
+      "address": "Unit Stuttgart<br />Weidacherstrasse 18<br />70794 Filderstadt / Bernhausen<br />Germany",
+      "phone": "+49 711 90 77 40 11",
+      "fax": "+49 711 90 77 40 10",
+      "email": "gg.str@gategroup.com",
+      "location": [48.6753, 9.20129999999995],
+      "image": "/assets/img/card/contact-2.jpg",
+      "country": "Germany"
+    },
+
+    {
+      "title": "Zurich",
+      "address": "Borddienststrasse<br />P.O. Box ZRH<br />8058 Zurich Airport<br />Switzerland",
+      "phone": "+41 44 533 73 28",
+      "fax": "+41 44 533 73 45",
+      "location": [47.4582165, 8.555475500000057],
+      "image": "/assets/img/card/careers3.jpg",
+      "country": "Switzerland"
+    }
+  ]
+}
