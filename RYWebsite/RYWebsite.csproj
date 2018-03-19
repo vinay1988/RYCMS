@@ -116,6 +116,7 @@
     <Compile Include="App_Start\GlassMapperSc.cs" />
     <Compile Include="App_Start\GlassMapperScCustom.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\Banner\BannerController.cs" />
     <Compile Include="Controllers\Footer\FooterController.cs" />
     <Compile Include="Controllers\Header\HeaderController.cs" />
     <Compile Include="Controllers\Header\LogoController.cs" />
@@ -123,6 +124,8 @@
     <Compile Include="Controllers\Header\SecondaryNavigationController.cs" />
     <Compile Include="Controllers\MediaCard\MediaCardController.cs" />
     <Compile Include="Controllers\MediaCard\MediaCardDetailController.cs" />
+    <Compile Include="Models\Banner\Images.cs" />
+    <Compile Include="Models\Banner\Banner.cs" />
     <Compile Include="Models\Common\SitecoreItem.cs" />
     <Compile Include="Models\Footer\FooterModel.cs" />
     <Compile Include="Models\Footer\FooterItems.cs" />
@@ -290,6 +293,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\MediaCard\Index.cshtml" />
     <Content Include="Views\MediaCardDetail\Index.cshtml" />
+    <Content Include="Views\Banner\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

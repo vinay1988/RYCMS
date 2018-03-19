@@ -1,0 +1,39 @@
+﻿@model Banner
+@using Glass.Mapper.Sc.Web.Mvc
+
+
+<div class="hero hero--home">
+    <div class="hero__backgrounds">
+        @if (Model.Children != null)
+        {
+            foreach (var item in Model.Children)
+            {
+                
+                <div class="hero__background" style="background-image: url('@item.Image.Src')"></div>
+            }
+        }
+        
+        @*<div class="hero__background" style="background-image: url('/assets/img/hero/home2.jpg')"></div>
+        <div class="hero__background" style="background-image: url('/assets/img/hero/home3.jpg')"></div>*@
+    </div>
+    <div class="hero__inner">
+
+        <h1 class="hero__title">@Model.Title</h1>
+        <div class="hero__content">
+            <p class="hero__desc">@Model.Desc</p>
+
+            <a href="/" class="hero__link btn btn--white">@Model.LinkText</a>
+        </div>
+    </div>
+
+    <button class="btn-scroll" title="scroll">
+        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="38" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs>
+                <rect id="a" width="19" height="28" rx="9.5" />
+            </defs>
+            <g fill="none" fill-rule="evenodd">
+                <path stroke="#FFF" stroke-width="2" d="M6.4375 33.4l3.09359217 2.82842712M12.77481157 33.4L9.6812194 36.22842712" stroke-linecap="round" />
+            </g>
+        </svg>
+    </button>
+</div>

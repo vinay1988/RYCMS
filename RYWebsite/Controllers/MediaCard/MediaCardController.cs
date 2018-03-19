@@ -7,6 +7,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using RYWebsite.Models;
+using Sitecore.Data.Templates;
+using Sitecore.Data.Managers;
 
 namespace RYWebsite.Controllers
 {
@@ -26,6 +28,10 @@ namespace RYWebsite.Controllers
         public ActionResult Index()
         {
             //var ds = _renderingContext.GetDataSource();
+         
+
+          
+
             var model = _context.GetItem<MediaCardModel>(new Guid(_renderingContext.GetDataSource()));
            
             return View(model);
