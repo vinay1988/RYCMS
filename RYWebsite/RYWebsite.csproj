@@ -117,6 +117,7 @@
     <Compile Include="App_Start\GlassMapperScCustom.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\Banner\BannerController.cs" />
+    <Compile Include="Controllers\Executive\ExecutiveController.cs" />
     <Compile Include="Controllers\Footer\FooterController.cs" />
     <Compile Include="Controllers\Header\HeaderController.cs" />
     <Compile Include="Controllers\Header\LogoController.cs" />
@@ -127,6 +128,8 @@
     <Compile Include="Models\Banner\Images.cs" />
     <Compile Include="Models\Banner\Banner.cs" />
     <Compile Include="Models\Common\SitecoreItem.cs" />
+    <Compile Include="Models\Executive\ExecutiveItems.cs" />
+    <Compile Include="Models\Executive\ExecutiveModel.cs" />
     <Compile Include="Models\Footer\FooterModel.cs" />
     <Compile Include="Models\Footer\FooterItems.cs" />
     <Compile Include="Models\Header\HeaderModel.cs" />
@@ -248,6 +251,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Executive\" />
     <Folder Include="Views\Home\" />
   </ItemGroup>
   <ItemGroup>
