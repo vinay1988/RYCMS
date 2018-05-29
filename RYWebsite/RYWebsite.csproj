@@ -251,7 +251,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Executive\" />
     <Folder Include="Views\Home\" />
   </ItemGroup>
   <ItemGroup>
@@ -298,6 +297,7 @@
     <Content Include="Views\MediaCard\Index.cshtml" />
     <Content Include="Views\MediaCardDetail\Index.cshtml" />
     <Content Include="Views\Banner\Index.cshtml" />
+    <Content Include="Views\Executive\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

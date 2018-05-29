@@ -11,10 +11,11 @@ namespace RYWebsite.Models
     [SitecoreType(AutoMap = true)]
     public class ExecutiveModel
     {
-
+        public Glass.Mapper.Sc.Fields.Image BannerImage { get; set; }
+        public string Description { get; set; }
         [SitecoreChildren(InferType = true)]
         //public  List<FooterItems> Children { get; set; }
-        public IEnumerable<MediaCardItem> Children { get; set; }
+        public IEnumerable<ExecutiveItem> Children { get; set; }
 
     }
 }

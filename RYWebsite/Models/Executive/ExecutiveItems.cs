@@ -12,14 +12,8 @@ namespace RYWebsite.Models
     public class ExecutiveItem
     {
         public string Title { get; set; }
-        public string Heading { get; set; }
-        public string Content { get; set; }
-        [ScriptIgnore]
-        [SitecoreField("Button Text")]
-        public string ButtonText { get; set; }
-        [ScriptIgnore]
-        [SitecoreField("Button Link")]
-        public Link ButtonLink { get; set; }
+        public string Position { get; set; }
+        public string Description { get; set; }
         public Image Image { get; set; }
     }
 }
